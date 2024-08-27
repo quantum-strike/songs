@@ -23,7 +23,12 @@ let curr_track = document.createElement("audio");
 
 // Define the tracks that have to be played
 let track_list = [
-
+  {
+    "name": "Aalaporaan Thamizhan",
+    "artist": "A.R. Rahman",
+    "image": "https://i.scdn.co/image/ab67616d0000b273e9880adf2d476f7ff34824ee",
+    "path": "https://github.com/Fantastiamask/songs/blob/main/Aalaporaan_Thamizhan.mp3?raw=true"
+  }
 ];
 
 function displaySongs() {
